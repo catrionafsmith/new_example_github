@@ -1,7 +1,7 @@
 
 function sayHello() {
     let name = prompt("What is your name?");
-    alert("Hello " + name + "! Happy Burns Day!");
+    alert("Hello " + name + "! Happy Burns Night!");
 }
 let helloButton = document.getElementById("sayhello");
 helloButton.addEventListener("click", sayHello);
@@ -25,3 +25,11 @@ function stopPoem() {
 }
 let stopReading = document.getElementById("stopRead")
 stopReading.addEventListener("click", stopPoem)
+
+
+function darkMode() {
+    document.body.style.background = "white";
+}
+
+let darkButton = document.getElementById("darkmode")
+darkButton.addEventListener("click", darkMode)

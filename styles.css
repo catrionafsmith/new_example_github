@@ -3,10 +3,15 @@
     color: BLACK;
 }
 body {
-    background-image: url("IMG-1297.jpg");
+    background-image: url("IMG-1297.jpg"); 
 }
 h1 {
     text-align: center;
+}
+.darkmode {
+    background-color: black;
+    color: white;
+
 }
 .MainDiv {
     background-color: pink;
